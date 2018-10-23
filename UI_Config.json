@@ -1,0 +1,50 @@
+{
+    "output_file": "config.json",
+
+    "liveOnly": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Live Only Mode",
+        "tooltip": "True if you want it to only run when you are live",
+        "group" : "General"
+    },
+    "intervalTime": {
+        "type": "numberbox",
+        "value": 15,
+        "label": "Timer interval in minutes",
+        "tooltip": "Number of minutes between shoutouts",
+        "group" : "General"
+    },
+    
+    "OpenNamesFile": {
+        "type": "button",
+        "label": "Open Names File",
+        "tooltip": "Opens 'names.txt'",
+        "function": "OpenNamesFile",
+        "wsevent": "",
+        "group" : "General"
+    },
+    "OpenFormatsFile": {
+        "type": "button",
+        "label": "Open Formats File",
+        "tooltip": "Opens 'formats.txt'",
+        "function": "OpenFormatsFile",
+        "wsevent": "",
+        "group" : "General"
+    },
+    
+    "apiKey": {
+        "type": "textbox",
+        "value": "",
+        "label": "Twitch API Key",
+        "tooltip": "Twitch API Key",
+        "group" : "Secret"
+    },
+    "openReadMe": {
+        "type": "button",
+        "label": "Open 'Readme' file",
+        "tooltip": "Opens the 'Readme.txt' for this script.",
+        "function": "OpenReadMe",
+        "wsevent": ""
+    }
+}
